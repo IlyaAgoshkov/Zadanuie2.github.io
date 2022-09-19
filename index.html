@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Задание 2</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="wrapper">
+        <header>
+            <div class="smt">
+                <style>
+                   </style>
+                <a href=""><img src="Blotus.jpg" class="logo" alt="Логотип"></a>
+                <h1>Веб страница для курса Web UI</h1>
+            </div>
+        </header><br><br><br>
+            <div class="content">
+                <nav class="menu">
+                    <a href="#linkedlist"><strong>Список гиперссылок</strong></a>
+                    <a href="#table"><strong>Таблица</strong></a>
+                    <a href="#form"><strong>Форма</strong></a>
+                <style>
+                    body {
+                     background: #c7b39b url(1.png); /* Цвет фона и путь к файлу */
+                     color: #fff; /* Цвет текста */
+                    }
+                   </style><br><br><br>
+                <a id="linkedlist"></a>
+                    <ol class="linkedlist">
+                        <a href="http://example.com">абсолютную гиперссылку на главную страницу сайта example.com</a><br>
+      <a href="https://example.com">абсолютную на главную сайта example.com в протоколе https</a><br>
+      <a href="ftp://ftp.intel.com/readme.txt">ссылка на файл на сервере FTP без авторизации;</a><br>
+      <a href="ftp://user:123456@example.ru/examples/main.txt">ссылка на файл на сервере FTP с авторизацией</a><br>
+      <a href="https://oir.mobi/uploads/posts/2021-05/1622062787_6-oir_mobi-p-priroda-rossii-priroda-krasivo-foto-6.jpg">ссылка на фрагмент страницы некоторого сайта</a><br>
+      <a href="https://youtu.be/7uky9e-uLKU?t=30">ссылку с двумя параметрами в URL</a>
+      <nav>
+        <a href="index.html" title="Главная">Главная</a>
+        <a href="#logo"title="Логотип">Логотип</a>
+        <a href="#footer" title="Подвал сайта">Подвал сайта</a>
+        <a href="#image" title="Картинка">Цветок</a>
+        <a href="#map" title="Карта">Карта</a>
+        <a href="#table"title="Таблица">Таблица</a>
+        </nav>
+      <a>ссылка без href</a><br>
+      <a href="">ссылка с пустым href=""</a><br>
+      <a href="https://example.com" rel=nofollow>ссылка, по которой запрещен переход поисковикам</a><br>
+      <a href="https://example.com"><!--noindex-->ссылка запрещенная для индексации поисковиками<!--/noindex--></a><br>
+        <a href="#footer">&lt;footer&gt;</a><!-- контекстная ссылка в тексте --><br>
+      <a href="image.jpg" id="image"><img src="image.jpg" height="300" width="480" alt="Цветок"></a><!-- ссылка-изображение --><br>
+              <map name="map0">
+                      <area shape="rect" coords="18,12,177,84" href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D1%8F%D0%BC%D0%BE%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA" alt="Прямоугольник">
+                      <area shape="circle" coords="108,147,109,115" href="https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D1%83%D0%B3" alt="Круг">
+                      <area shape="poly" coords="212,77,213,139,389,139" href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D1%8F%D0%BC%D0%BE%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D1%82%D1%80%D0%B5%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA" alt="Прямоугольный треугольник">
+                  </map>
+                  <a id="map"><img src="mymap.png" usemap="#map0" alt="Map"></a><br>        
+      <a href="form.html">относительная ссылка на страницу в текущем каталоге</a><br>
+      <a href="about/aboutpage.html">относительная ссылка на страницу в каталоге about</a><br>
+      <a href="../example.html">относительная ссылка на страницу в каталоге уровнем выше текущего</a><br>
+      <a href="../../enoughexample.html">относительная ссылка на страницу в каталоге двумя уровнями вышe</a><br>
+      <a href="index.html">сокращенная ссылка на главную</a><br>
+      <a href="demo.html">сокращенная ссылка на внутреннюю.</a><br>
+                    </ol>
+
+                <a id="table"></a>
+                <table class="tabletask">
+                    <h1>Таблица умножения</h1>
+                    <br>
+                    <tr>
+                        <td>2</td>
+                        <td>*</td>
+                        <td>1</td>
+                        <td>=</td>
+                        <td>2</td>
+                        <!--Умножение на 2-->
+                        <td>3</td>
+                        <td>*</td>
+                        <td>1</td>
+                        <td>=</td>
+                        <td>3</td>
+                        <!--Умножение на 3-->
+                        <td>4</td>
+                        <td>*</td>
+                        <td>1</td>
+                        <td>=</td>
+                        <td>4</td>
+                        <!--Умножение на 4-->
+                        <td>5</td>
+                        <td>*</td>
+                        <td>1</td>
+                        <td>=</td>
+                        <td>5</td>
+                        <!--Умножение на 5-->
+                        <td>6</td>
+                        <td>*</td>
+                        <td>1</td>
+                        <td>=</td>
+                        <td>6</td>
+                        <!--Умножение на 6-->
+                        <td>7</td>
+                        <td>*</td>
+                        <td>1</td>
+                        <td>=</td>
+                        <td>7</td>
+                        <!--Умножение на 7-->
+                        <td>8</td>
+                        <td>*</td>
+                        <td>1</td>
+                        <td>=</td>
+                        <td>8</td>
+                        <!--Умножение на 8-->
+                        <td>9</td>
+                        <td>*</td>
+                        <td>1</td>
+                        <td>=</td>
+                        <td>9</td>
+                        <!--Умножение на 9-->
+                        <td>10</td>
+                        <td>*</td>
+                        <td>1</td>
+                        <td>=</td>
+                        <td>10</td>
+                        <!--Умножение на 10-->
+                    </th>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>*</td>
+                        <td>2</td>
+                        <td>=</td>
+                        <td>4</td>
+                        <!--Умножение на 2-->
+                        <td>3</td>
+                        <td>*</td>
+                        <td>2</td>
+                        <td>=</td>
+                        <td>6</td>
+                        <!--Умножение на 3-->
+                        <td>4</td>
+                        <td>*</td>
+                        <td>2</td>
+                        <td>=</td>
+                        <td>8</td>
+                        <!--Умножение на 4-->
+                        <td>5</td>
+                        <td>*</td>
+                        <td>2</td>
+                        <td>=</td>
+                        <td>10</td>
+                        <!--Умножение на 5-->
+                        <td>6</td>
+                        <td>*</td>
+                        <td>2</td>
+                        <td>=</td>
+                        <td>12</td>
+                        <!--Умножение на 6-->
+                        <td>7</td>
+                        <td>*</td>
+                        <td>2</td>
+                        <td>=</td>
+                        <td>14</td>
+                        <!--Умножение на 7-->
+                        <td>8</td>
+                        <td>*</td>
+                        <td>2</td>
+                        <td>=</td>
+                        <td>16</td>
+                        <!--Умножение на 8-->
+                        <td>9</td>
+                        <td>*</td>
+                        <td>2</td>
+                        <td>=</td>
+                        <td>18</td>
+                        <!--Умножение на 9-->
+                        <td>10</td>
+                        <td>*</td>
+                        <td>2</td>
+                        <td>=</td>
+                        <td>20</td>
+                        <!--Умножение на 10-->
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>*</td>
+                        <td>3</td>
+                        <td>=</td>
+                        <td>6</td>
+                        <!--Умножение на 2-->
+                        <td>3</td>
+                        <td>*</td>
+                        <td>3</td>
+                        <td>=</td>
+                        <td>9</td>
+                        <!--Умножение на 3-->
+                        <td>4</td>
+                        <td>*</td>
+                        <td>3</td>
+                        <td>=</td>
+                        <td>12</td>
+                        <!--Умножение на 4-->
+                        <td>5</td>
+                        <td>*</td>
+                        <td>3</td>
+                        <td>=</td>
+                        <td>15</td>
+                        <!--Умножение на 5-->
+                        <td>6</td>
+                        <td>*</td>
+                        <td>3</td>
+                        <td>=</td>
+                        <td>18</td>
+                        <!--Умножение на 6-->
+                        <td>7</td>
+                        <td>*</td>
+                        <td>3</td>
+                        <td>=</td>
+                        <td>21</td>
+                        <!--Умножение на 7-->
+                        <td>8</td>
+                        <td>*</td>
+                        <td>3</td>
+                        <td>=</td>
+                        <td>24</td>
+                        <!--Умножение на 8-->
+                        <td>9</td>
+                        <td>*</td>
+                        <td>3</td>
+                        <td>=</td>
+                        <td>27</td>
+                        <!--Умножение на 9-->
+                        <td>10</td>
+                        <td>*</td>
+                        <td>3</td>
+                        <td>=</td>
+                        <td>30</td>
+                        <!--Умножение на 10-->
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>*</td>
+                        <td>4</td>
+                        <td>=</td>
+                        <td>8</td>
+                        <!--Умножение на 2-->
+                        <td>3</td>
+                        <td>*</td>
+                        <td>4</td>
+                        <td>=</td>
+                        <td>12</td>
+                        <!--Умножение на 3-->
+                        <td>4</td>
+                        <td>*</td>
+                        <td>4</td>
+                        <td>=</td>
+                        <td>16</td>
+                        <!--Умножение на 4-->
+                        <td>5</td>
+                        <td>*</td>
+                        <td>4</td>
+                        <td>=</td>
+                        <td>20</td>
+                        <!--Умножение на 5-->
+                        <td>6</td>
+                        <td>*</td>
+                        <td>4</td>
+                        <td>=</td>
+                        <td>24</td>
+                        <!--Умножение на 6-->
+                        <td>7</td>
+                        <td>*</td>
+                        <td>4</td>
+                        <td>=</td>
+                        <td>28</td>
+                        <!--Умножение на 7-->
+                        <td>8</td>
+                        <td>*</td>
+                        <td>4</td>
+                        <td>=</td>
+                        <td>32</td>
+                        <!--Умножение на 8-->
+                        <td>9</td>
+                        <td>*</td>
+                        <td>4</td>
+                        <td>=</td>
+                        <td>36</td>
+                        <!--Умножение на 9-->
+                        <td>10</td>
+                        <td>*</td>
+                        <td>4</td>
+                        <td>=</td>
+                        <td>40</td>
+                        <!--Умножение на 10-->
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>*</td>
+                        <td>5</td>
+                        <td>=</td>
+                        <td>10</td>
+                        <!--Умножение на 2-->
+                        <td>3</td>
+                        <td>*</td>
+                        <td>5</td>
+                        <td>=</td>
+                        <td>15</td>
+                        <!--Умножение на 3-->
+                        <td>4</td>
+                        <td>*</td>
+                        <td>5</td>
+                        <td>=</td>
+                        <td>20</td>
+                        <!--Умножение на 4-->
+                        <td>5</td>
+                        <td>*</td>
+                        <td>5</td>
+                        <td>=</td>
+                        <td>25</td>
+                        <!--Умножение на 5-->
+                        <td>6</td>
+                        <td>*</td>
+                        <td>5</td>
+                        <td>=</td>
+                        <td>30</td>
+                        <!--Умножение на 6-->
+                        <td>7</td>
+                        <td>*</td>
+                        <td>5</td>
+                        <td>=</td>
+                        <td>35</td>
+                        <!--Умножение на 7-->
+                        <td>8</td>
+                        <td>*</td>
+                        <td>5</td>
+                        <td>=</td>
+                        <td>40</td>
+                        <!--Умножение на 8-->
+                        <td>9</td>
+                        <td>*</td>
+                        <td>5</td>
+                        <td>=</td>
+                        <td>45</td>
+                        <!--Умножение на 9-->
+                        <td>10</td>
+                        <td>*</td>
+                        <td>5</td>
+                        <td>=</td>
+                        <td>50</td>
+                        <!--Умножение на 10-->
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>*</td>
+                        <td>6</td>
+                        <td>=</td>
+                        <td>12</td>
+                        <!--Умножение на 2-->
+                        <td>3</td>
+                        <td>*</td>
+                        <td>6</td>
+                        <td>=</td>
+                        <td>18</td>
+                        <!--Умножение на 3-->
+                        <td>4</td>
+                        <td>*</td>
+                        <td>6</td>
+                        <td>=</td>
+                        <td>24</td>
+                        <!--Умножение на 4-->
+                        <td>5</td>
+                        <td>*</td>
+                        <td>6</td>
+                        <td>=</td>
+                        <td>30</td>
+                        <!--Умножение на 5-->
+                        <td>6</td>
+                        <td>*</td>
+                        <td>6</td>
+                        <td>=</td>
+                        <td>36</td>
+                        <!--Умножение на 6-->
+                        <td>7</td>
+                        <td>*</td>
+                        <td>6</td>
+                        <td>=</td>
+                        <td>42</td>
+                        <!--Умножение на 7-->
+                        <td>8</td>
+                        <td>*</td>
+                        <td>6</td>
+                        <td>=</td>
+                        <td>48</td>
+                        <!--Умножение на 8-->
+                        <td>9</td>
+                        <td>*</td>
+                        <td>6</td>
+                        <td>=</td>
+                        <td>54</td>
+                        <!--Умножение на 9-->
+                        <td>10</td>
+                        <td>*</td>
+                        <td>6</td>
+                        <td>=</td>
+                        <td>60</td>
+                        <!--Умножение на 10-->
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>*</td>
+                        <td>7</td>
+                        <td>=</td>
+                        <td>14</td>
+                        <!--Умножение на 2-->
+                        <td>3</td>
+                        <td>*</td>
+                        <td>7</td>
+                        <td>=</td>
+                        <td>21</td>
+                        <!--Умножение на 3-->
+                        <td>4</td>
+                        <td>*</td>
+                        <td>7</td>
+                        <td>=</td>
+                        <td>28</td>
+                        <!--Умножение на 4-->
+                        <td>5</td>
+                        <td>*</td>
+                        <td>7</td>
+                        <td>=</td>
+                        <td>35</td>
+                        <!--Умножение на 5-->
+                        <td>6</td>
+                        <td>*</td>
+                        <td>7</td>
+                        <td>=</td>
+                        <td>42</td>
+                        <!--Умножение на 6-->
+                        <td>7</td>
+                        <td>*</td>
+                        <td>7</td>
+                        <td>=</td>
+                        <td>49</td>
+                        <!--Умножение на 7-->
+                        <td>8</td>
+                        <td>*</td>
+                        <td>7</td>
+                        <td>=</td>
+                        <td>56</td>
+                        <!--Умножение на 8-->
+                        <td>9</td>
+                        <td>*</td>
+                        <td>7</td>
+                        <td>=</td>
+                        <td>63</td>
+                        <!--Умножение на 9-->
+                        <td>10</td>
+                        <td>*</td>
+                        <td>7</td>
+                        <td>=</td>
+                        <td>70</td>
+                        <!--Умножение на 10-->
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>*</td>
+                        <td>8</td>
+                        <td>=</td>
+                        <td>16</td>
+                        <!--Умножение на 2-->
+                        <td>3</td>
+                        <td>*</td>
+                        <td>8</td>
+                        <td>=</td>
+                        <td>24</td>
+                        <!--Умножение на 3-->
+                        <td>4</td>
+                        <td>*</td>
+                        <td>8</td>
+                        <td>=</td>
+                        <td>32</td>
+                        <!--Умножение на 4-->
+                        <td>5</td>
+                        <td>*</td>
+                        <td>8</td>
+                        <td>=</td>
+                        <td>40</td>
+                        <!--Умножение на 5-->
+                        <td>6</td>
+                        <td>*</td>
+                        <td>8</td>
+                        <td>=</td>
+                        <td>48</td>
+                        <!--Умножение на 6-->
+                        <td>7</td>
+                        <td>*</td>
+                        <td>8</td>
+                        <td>=</td>
+                        <td>56</td>
+                        <!--Умножение на 7-->
+                        <td>8</td>
+                        <td>*</td>
+                        <td>8</td>
+                        <td>=</td>
+                        <td>64</td>
+                        <!--Умножение на 8-->
+                        <td>9</td>
+                        <td>*</td>
+                        <td>8</td>
+                        <td>=</td>
+                        <td>72</td>
+                        <!--Умножение на 9-->
+                        <td>10</td>
+                        <td>*</td>
+                        <td>8</td>
+                        <td>=</td>
+                        <td>80</td>
+                        <!--Умножение на 10-->
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>*</td>
+                        <td>9</td>
+                        <td>=</td>
+                        <td>18</td>
+                        <!--Умножение на 2-->
+                        <td>3</td>
+                        <td>*</td>
+                        <td>9</td>
+                        <td>=</td>
+                        <td>27</td>
+                        <!--Умножение на 3-->
+                        <td>4</td>
+                        <td>*</td>
+                        <td>9</td>
+                        <td>=</td>
+                        <td>36</td>
+                        <!--Умножение на 4-->
+                        <td>5</td>
+                        <td>*</td>
+                        <td>9</td>
+                        <td>=</td>
+                        <td>45</td>
+                        <!--Умножение на 5-->
+                        <td>6</td>
+                        <td>*</td>
+                        <td>9</td>
+                        <td>=</td>
+                        <td>54</td>
+                        <!--Умножение на 6-->
+                        <td>7</td>
+                        <td>*</td>
+                        <td>9</td>
+                        <td>=</td>
+                        <td>63</td>
+                        <!--Умножение на 7-->
+                        <td>8</td>
+                        <td>*</td>
+                        <td>9</td>
+                        <td>=</td>
+                        <td>72</td>
+                        <!--Умножение на 8-->
+                        <td>9</td>
+                        <td>*</td>
+                        <td>9</td>
+                        <td>=</td>
+                        <td>81</td>
+                        <!--Умножение на 9-->
+                        <td>10</td>
+                        <td>*</td>
+                        <td>9</td>
+                        <td>=</td>
+                        <td>90</td>
+                        <!--Умножение на 10-->
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>*</td>
+                        <td>10</td>
+                        <td>=</td>
+                        <td>20</td>
+                        <!--Умножение на 2-->
+                        <td>3</td>
+                        <td>*</td>
+                        <td>10</td>
+                        <td>=</td>
+                        <td>30</td>
+                        <!--Умножение на 3-->
+                        <td>4</td>
+                        <td>*</td>
+                        <td>10</td>
+                        <td>=</td>
+                        <td>40</td>
+                        <!--Умножение на 4-->
+                        <td>5</td>
+                        <td>*</td>
+                        <td>10</td>
+                        <td>=</td>
+                        <td>50</td>
+                        <!--Умножение на 5-->
+                        <td>6</td>
+                        <td>*</td>
+                        <td>10</td>
+                        <td>=</td>
+                        <td>60</td>
+                        <!--Умножение на 6-->
+                        <td>7</td>
+                        <td>*</td>
+                        <td>10</td>
+                        <td>=</td>
+                        <td>70</td>
+                        <!--Умножение на 7-->
+                        <td>8</td>
+                        <td>*</td>
+                        <td>10</td>
+                        <td>=</td>
+                        <td>80</td>
+                        <!--Умножение на 8-->
+                        <td>9</td>
+                        <td>*</td>
+                        <td>10</td>
+                        <td>=</td>
+                        <td>90</td>
+                        <!--Умножение на 9-->
+                        <td>10</td>
+                        <td>*</td>
+                        <td>10</td>
+                        <td>=</td>
+                        <td>100</td>
+                        <!--Умножение на 10-->
+                    </tr>
+                </table>
+                <br>
+                <a id="form"></a>
+                <form>
+                    <label>
+                    Имя:<br>
+                    <input name="field-name-1">
+                    </label><br>
+                    <label>
+                        Текстовое поле email:<br>
+                        <input name="field-email" type="email">
+                    </label><br>
+                    <label>
+                        Текстовое поле даты:<br>
+                        <input name="field-date" value="2020-09-09" type="date">
+                    </label><br>
+                    Пол:<br>
+                    <label><input type="radio" checked="checked" name="radio-group-1"/>Мужской</label>
+                    <label><input type="radio" name="radio-group-1"/>Женский</label><br>
+                    Количество конечностей:<br>
+                    <label><input type="radio" checked="checked" name="radio-group-2"/>1</label>
+                    <label><input type="radio" name="radio-group-2"/>2</label>
+                    <label><input type="radio" name="radio-group-2"/>3</label>
+                    <label><input type="radio" name="radio-group-2"/>4</label>
+                    <label><input type="radio" name="radio-group-2"/>5</label>
+                    <label><input type="radio" name="radio-group-2"/>6</label>
+                    <label><input type="radio" name="radio-group-2"/>7</label>
+                    <label><input type="radio" name="radio-group-2"/>8</label><br>
+                    <label>
+                        Сверхспособности:
+                        <br>
+                        <select name="field-name-4[]"
+                            multiple="multiple">
+                            <option value="Значение1">Бессмертие</option>
+                            <option value="Значение2" selected="selected">Прохождение через стены</option>
+                            <option value="Значение3" selected="selected">Левитация</option>
+                        </select>
+                    </label><br>
+                    <label>
+                        Биография:<br>
+                        <textarea name="field-name-2"></textarea>
+                    </label><br>
+                    Чекбокс:<br />
+                    <label><input type="checkbox" name="check-1">C контрактом ознакомлен</label><br>
+                    <input type="submit" value="Отправить">
+                </form>
+            </div>
+        </div>
+        <footer>
+            <a id="footer"></a>
+            <p>&#169; Агошков Илья 2022</p>
+        </footer>
+    </body>
+</html>
