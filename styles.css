@@ -16,11 +16,11 @@
 }
 .tabletask th {
     font-weight: normal;    
-    color: blue;
+    color: black;
     padding: 10px 15px;
 }
 .tabletask td {
-    color: deepskyblue;
+    color: black;
     padding: 10px 15px;
 }
 .tabletask caption {
