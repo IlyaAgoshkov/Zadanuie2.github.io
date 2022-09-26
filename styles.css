@@ -9,6 +9,12 @@
     border-bottom: 10px solid rgb(0, 0, 0);
     margin: auto;
 }
+table {
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 14px;
+border-collapse: collapse;
+text-align: center;
+}
 th, td:first-child {
 background: #AFCDE7;
 color: white;
@@ -24,28 +30,6 @@ background: #D8E6F3;
 }
 th:first-child, td:first-child {
 text-align: left;
-}
-.tabletask {
-    margin: auto;
-    text-align: center;
-    background:url(wood-board-2.png);
-    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-    font-size: 14px;
-    border-collapse: collapse;
-    text-align: center;
-}
-.tabletask th {
-    font-weight: normal;    
-    color: rgb(0, 0, 0);
-    padding: 8px 10px;
-}
-.tabletask td {
-    color: rgb(0, 0, 0);
-    padding: 2px 2px;
-}
-.tabletask caption {
-    font-size: 10px;
-    text-decoration-color: #00ff00;
 }
 header {
     text-align: center;
